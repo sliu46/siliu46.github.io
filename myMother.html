@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="2.css" />
+	<meta charset="UTF-8">
+	<title>Happy Mother's Day</title>
+	<style>
+
+		.heart {
+			position: relative;
+			width: 100px;
+			height: 90px;
+		}
+		.heart:before,
+		.heart:after {
+			position: absolute;
+			content: "";
+			left: 50px;
+			top: 0;
+			width: 50px;
+			height: 80px;
+			background: #f07085;
+			border-radius: 50px 50px 0 0;
+			transform: rotate(-45deg);
+			transform-origin: 0 100%;
+		}
+		.heart:after {
+			left: 0;
+			transform: rotate(45deg);
+			transform-origin: 100% 100%;
+		}
+	</style>
+</head>
+<body>
+    
+	<h3>To方女士：</h3>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;母亲节快乐！愿你身体健康心情愉快！</p>
+	
+	<div class="heart"></div>
+</body>
+</html>
